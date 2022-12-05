@@ -2,11 +2,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <?php include("-includes/head.php");?>
+    <?php include("includes/head.php");?>
   </head>
   <body>
-    <?php include("-includes/navigasi.php");?>
- 
+    <?php include("includes/navigasi.php");?>
+    <?php include("koneksi/koneksi.php");?>
+
     <?php 
     //pemanggilan konten halaman index
     // include("include/index.php");
@@ -32,5 +33,6 @@
     <?php include("includes/footer.php");?>
     <!-- Optional JavaScript; choose one of the two! -->
     <?php include("includes/script.php");?>
+    
   </body>
 </html>

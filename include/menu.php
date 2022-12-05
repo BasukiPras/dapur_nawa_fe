@@ -5,6 +5,8 @@
 <div class="box-container">
 <div class="box">
 <?php 
+
+
         $sql_b = "SELECT `b`.`id_menu`, `b`.`nama_menu`, `b`.`cover`, 
         `b`.`harga_menu` FROM `menu` `b` ORDER BY `b`.`id_menu` DESC LIMIT 6";
         $query_b = mysqli_query($koneksi, $sql_b);
@@ -22,35 +24,35 @@
 <div class="box">
     <img class="image" src="images/ayamsaospedas.jpg">
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Ayam Asam Pedas‎ ‎ ‎ ‎ ‎ ‎ ‎ </h3>
+        <h3> Ayam Asam Pedas </h3>
         <h4>Rp.17.000</h4>
     </div>
 </div>
 <div class="box">
     <img class="image" src="images/udangsaosinggris.jpg" >
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ ‎‎ ‎ ‎ Udang Saos Inggris ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</h3>
+        <h3>Udang Saos Inggris </h3>
         <h4>Rp.25.000</h4>
     </div>
 </div>
 <div class="box">
     <img class="image" src="images/ayamsaos3rasa.jpg" >
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ Ayam Saos Tiga Rasa ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </h3>
+        <h3>Ayam Saos Tiga Rasa   </h3>
         <h4>Rp.17.000</h4>
     </div>
 </div>
 <div class="box">
     <img class="image" src="images/capcaykamarbola.jpg" >
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Capcay Kamar Bola ‎ ‎ ‎  ‎ ‎ ‎ ‎</h3>
+        <h3> Capcay Kamar Bola  </h3>
         <h4>Rp.22.000</h4>
     </div>
 </div>
 <div class="box">
     <img class="image" src="images/nasigorengjawa.jpg" >
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ Nasi Goreng Jawa‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</h3>
+        <h3>Nasi Goreng Jawa </h3>
         <h4>Rp.12.000</h4>
     </div>
 </div>
@@ -58,7 +60,7 @@
     <img class="image" src="images/capcay.jpg" >
     <div class="content">
         
-        <h3>‎ ‎‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎Capcay‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</h3>
+        <h3>Capcay </h3>
         <h4>Rp.18.000</h4>
     </div>
 </div>
@@ -72,7 +74,7 @@
 <div class="box">
     <img class="image" src="images/nasigorengrendang.jpg" >
     <div class="content">
-        <h3>‎ ‎ ‎ ‎ ‎ ‎ Nasi Goreng Rendang‎ ‎ ‎ ‎ ‎</h3>
+        <h3>Nasi Goreng Rendang </h3>
         <h4>Rp.12.000</h4>
     </div>
 </div>
@@ -80,7 +82,7 @@
     <img class="image" src="images/migorengmalay.jpg" >
     <div class="content">
         
-        <h3>  ‎ ‎ ‎ ‎‎ ‎ ‎ ‎Mie Goreng Malay ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</h3>
+        <h3>  ie Goreng Malay </h3>
         <br>
         <h4>Rp.14.000</h4>
     </div>
@@ -88,7 +90,7 @@
 <div class="box">
     <img class="image" src="images/ayamsaosinggris.jpg" >
     <div class="content">
-        <h3>  ‎ ‎ ‎ ‎‎ ‎ ‎ ‎Ayam Saos Inggris ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</h3>
+        <h3>  yam Saos Inggris </h3>
         <br>
         <h4>Rp.17.000</h4>
     </div>
@@ -97,7 +99,7 @@
     <img class="image" src="images/migorengdapurnawa.jpg" >
     <div class="content">
         
-        <h3>‎ ‎ ‎ ‎ ‎ ‎ Mie Goreng Dapur Nawa‎ ‎ ‎ ‎ ‎ ‎ </h3>
+        <h3>Mie Goreng Dapur Nawa</h3>
         <br>
         <h4>Rp.13.000</h4>
     </div>
@@ -114,14 +116,14 @@
     <img class="image" src="images/nasigorengbulgogi.jpg" >
     <div class="content">
         
-        <h3>‎ ‎ ‎ ‎Nasi Goreng Bulgogi‎ ‎ ‎ ‎</h3>
+        <h3>asi Goreng Bulgogi </h3>
         <h4>Rp.17.000</h4>
     </div>
 </div>
 <div class="box">
     <img class="image" src="images/udangsaossingapur.jpg" >
     <div class="content">
-        <h3>Udang Saos Singapore‎ ‎ ‎ ‎</h3>
+        <h3>Udang Saos Singapore</h3>
         <h4>Rp.17.000</h4>
     </div>
 </div>
